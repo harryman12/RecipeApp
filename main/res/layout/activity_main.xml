@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/add_recipe_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignparentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="12dp"
+            android:text="Add Recipe"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/recipe_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_recipe_text"
+            android:text="Enter name"
+            android:textColor="@color/grey"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/recipe_image"
+            android:layout_width="166dp"
+            android:layout_height="154dp"
+            android:layout_below="@id/recipe_name"
+            android:contentDescription="@string/add_recipe_image_description"
+            android:src="@drawable/plate" />
+
+        <EditText
+            android:id="@+id/image_url"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/recipe_image"
+            android:text="@string/image_url" />
+
+        <EditText
+            android:id="@+id/recipe_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recipe_image"
+            android:layout_marginTop="18dp"
+            android:text="@string/ingredient"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/amount_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recipe_ingredients"
+            android:text ="@string/amount"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            />
+        <LinearLayout
+            android:id="@+id/checkbox_sect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amount_text"
+            android:orientation="horizontal"
+            >
+        <CheckBox
+            android:id="@+id/spicy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spicy"
+            android:textSize="15sp"
+            android:textColor="@color/blue"
+            android:onClick = "onCheckboxClicked"
+            />
+            <CheckBox
+                android:id="@+id/sweet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sweet"
+                android:textSize="15sp"
+                android:textColor="@color/blue"
+                android:onClick = "onCheckboxClicked"
+                />
+            <CheckBox
+                android:id="@+id/salty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salty"
+                android:textSize="15sp"
+                android:textColor="@color/blue"
+                android:onClick = "onCheckboxClicked"
+                />
+            <CheckBox
+                android:id="@+id/vegetarian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vegetarian"
+                android:textSize="15sp"
+                android:textColor="@color/blue"
+                android:onClick = "onCheckboxClicked"
+                />
+        </LinearLayout>
+        <Button
+            android:id = "@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkbox_sect"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:onClick="addRecipe"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
