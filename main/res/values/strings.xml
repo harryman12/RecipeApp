@@ -1,12 +1,3 @@
 <resources>
-    <string name="app_name">RecipeRepository</string>
-    <string name ="first_question">What recipe would you like to enter?</string>
-    <string name ="add_recipe_image_description">Recipe Description</string>
-    <string name="spicy">Spicy</string>
-    <string name="sweet">Sweet</string>
-    <string name="salty">Salty</string>
-    <string name="vegetarian">Vegetarian</string>
-    <string name="image_url">Enter recipe image URL</string>
-    <string name="ingredient">Please enter the ingredients with a comma between each.</string>
-    <string name = "amount">Please enter the amount with commas in between for each ingredient.</string>
+    <string name="app_name">MealSwap</string>
 </resources>
