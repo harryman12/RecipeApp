@@ -1,12 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MealSwap20" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/orange_200</item>
-        <item name="colorPrimaryVariant">@color/orange_500</item>
-        <item name="colorOnPrimary">@color/gray_500</item>
-        <item name="colorSecondary">@color/red_200</item>
-        <item name="colorOnSecondary">@color/white_200</item>
+    <style name="Base.Theme.RecipeRepository" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/RecipeRepositoryMainColor</item>
     </style>
 
-    <style name="Theme.MealSwap20" parent="Base.Theme.MealSwap20" />
+    <style name="Theme.RecipeRepository" parent="Base.Theme.RecipeRepository" />
 </resources>

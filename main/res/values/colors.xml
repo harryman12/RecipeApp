@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white_700">#FFFFFFFF</color>
-    <color name="white_200">#FFF4EC</color>
-    <color name="orange_200">#FAE1CE</color>
-    <color name="orange_500">#EDAE7D</color>
-    <color name="orange_700">#E59455</color>
-    <color name="red_200">#AA2A25</color>
-    <color name="red_500">#85410A</color>
-    <color name="red_700">#690202</color>
-    <color name="gray_500">#595959</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="RecipeRepositoryMainColor">#FFD560</color>
+    <color name="grey">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name = "blue">#0000FF</color>
 </resources>
