@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MealSwap</string>
+    <string name="_30_mins">30 mins</string>
+    <string-array name="food_categories">
+        <item>Main</item>
+        <item>Salad</item>
+        <item>Drink</item>
+        <item>Dessert</item>
+    </string-array>
+</resources>
